@@ -9,6 +9,17 @@ h1{
     margin-top: 0px;
     padding: 0px;
 }
+a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.5px 0px 7px rgb(0, 68, 255);
+    transition: 0.05s;
+}
 .cardscreen > h1{
     font-size: 70px;
     text-shadow: 1px 0px 7px rgb(0, 68, 255);
@@ -225,7 +236,12 @@ card-title{
     margin:10px 10px 0 10px;
     font-family: 'Anybody', cursive;
     font-size: 30px;
-    
+    text-align: center;
+    transition: 0.2s;
+}
+card-title:hover{
+    transform: translate(0, 2px);
+    transition: 0.2s;
 }
 .subheading{
     font-size: small;
