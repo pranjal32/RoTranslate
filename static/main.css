@@ -189,8 +189,9 @@ visit-count{
     font-family: 'Bebas Neue', cursive;
 }
 .navbar{
-    background-color: black;
-    box-shadow: 0 0 0 1px #ffffff;
+    background-color: rgba(0, 0, 0, 0.620);
+    box-shadow: 0 0 0 1px #6c6c6c;
+    backdrop-filter: blur(8px);
 }
 .navbar-brand{
     transform: scale(1.5);
