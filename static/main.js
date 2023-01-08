@@ -16,6 +16,3 @@ function berekenrbux(){
     pwith.innerHTML = Math.round(calculationwith);
     calculation.innerHTML = `(${strings.value}*${pps.value})*1.43=${Math.round(calculationwith)}`
 }
-
-// Only works if scroll was started inside the element.
-
