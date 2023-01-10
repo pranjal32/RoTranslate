@@ -193,6 +193,7 @@ visit-count{
     text-shadow: 0.5px 0px 7px rgb(0, 68, 255);
     font-family: 'Bebas Neue', cursive;
     transition: 0.5s all;
+    margin-left: 10px;
 }
 .card-more:hover{
     text-shadow: 0.5px 1px 10px rgb(0, 68, 255);
@@ -245,13 +246,14 @@ visit-count{
 }
 .tier{
     font-family: anybody;
-    font-size: 82px;
+    font-size: calc(((75vw - 4.5rem) / 7)*0.45);
     color: rgb(255, 255, 255);
     margin-bottom: 0px;
     position: relative; 
-    top: 85px;
+    top: 80px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
 }
 .tier1{
     border-radius: 0.375rem 0.375rem 0 0;
@@ -259,10 +261,31 @@ visit-count{
 .tier2{
     border-radius: 0 0 0.375rem 0.375rem;
 }
+.tier2 .tier{
+    top: 50px;
+}
 .tier-screen{
     margin-bottom: 50px;
 }
 
 .row>* {
     padding-left: 0px;
+}
+
+.text-white:hover{
+    text-shadow: none;
+}
+.text-white{
+    font-size: larger;
+}
+.btn-order{
+    margin-right: 15px;
+    background-color: #21252955;
+    backdrop-filter: blur(8px);
+}
+
+.btn-order-general{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
 }
