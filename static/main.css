@@ -246,7 +246,7 @@ visit-count{
 }
 .tier{
     font-family: anybody;
-    font-size: calc(((75vw - 4.5rem) / 7)*0.45);
+    font-size: 75px;
     color: rgb(255, 255, 255);
     margin-bottom: 0px;
     position: relative; 
