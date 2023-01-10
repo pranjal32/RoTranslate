@@ -166,6 +166,7 @@ h2{
     color: white;
     border: 0.5px solid rgb(68, 68, 68);
     transition: 0.3s all;
+    margin-left: 10px;
 }
 .card:not(.no-move):hover{
     transform:translateX(-3px)translateY(-3px);
@@ -213,6 +214,12 @@ visit-count{
     color: white;
     text-shadow: 0.5px 0px 7px rgb(0, 68, 255);
 }
+.navbar-brand:visited{
+    color: white;
+}
+.navbar-brand:active{
+    color: rgb(229, 234, 255);
+}
 
 .navbar-img{
     height: 20px;
@@ -221,4 +228,41 @@ visit-count{
 .navbar-roblox{
     scale: 1.5;
     filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(106deg) brightness(109%) contrast(107%);
+}
+
+
+.card-text, visit-count{
+    cursor: default;
+}
+
+::selection{
+    background-color: rgb(186, 186, 186);
+    color: rgb(0, 0, 0);
+}
+.tier-col{
+    border-right: 0.5px solid rgb(68, 68, 68);
+    background-color: #141415;
+}
+.tier{
+    font-family: anybody;
+    font-size: 82px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    position: relative; 
+    top: 85px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tier1{
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+.tier2{
+    border-radius: 0 0 0.375rem 0.375rem;
+}
+.tier-screen{
+    margin-bottom: 50px;
+}
+
+.row>* {
+    padding-left: 0px;
 }
