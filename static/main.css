@@ -54,12 +54,12 @@ a:hover{
 }
 .main:hover .roblox-logo{
     transition: 0.5s;
-    rotate: 10deg;
-    translate: 70px 30px;
-    transform: scale(4.5);
+    rotate: 15deg;
+    translate: 40px 30px;
+    transform: scale(4.2);
 }
 .main:hover{
-    font-size: 200px;
+    transform:scale(1.15)translateX(56px);
     transition: 0.5s;
 }
 h2{
