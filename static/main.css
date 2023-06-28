@@ -36,6 +36,7 @@ a:hover{
 }
 .top{
     margin-top: 70px;
+    user-select: none;
     font-size: 100px;
     font-family: 'Abril Fatface', cursive;
     cursor: default;
@@ -44,6 +45,7 @@ a:hover{
 }
 .main{
     font-size: 180px;
+    user-select: none;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: -4px;
     cursor: default;
@@ -73,11 +75,13 @@ h2{
     display: inline-block;
     margin-top: 25%;
     width: 500px;
+user-select: none;
     margin-left:-130px;
 }
 .roblox{
     filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(106deg) brightness(109%) contrast(107%);
     border: 0px;
+user-select: none;
     display: inline;
     width: 50px;
     box-shadow: none;
