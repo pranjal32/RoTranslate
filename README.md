@@ -1,5 +1,5 @@
 # WeTranslate
 
-https://pranjal32.github.io/WeTranslate/index.html
+https://pranjal32.github.io/RoTranslate/index.html
 <br>
-https://pranjal32.github.io/WeTranslate/calculator.html
+https://pranjal32.github.io/RoTranslate/calculator.html
