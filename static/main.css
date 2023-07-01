@@ -35,16 +35,18 @@ a:hover{
     margin-bottom: 40px;
 }
 .top{
-    margin-top: 70px;
+    margin-top: 20vh;
+    margin-right: 20px;
     user-select: none;
-    font-size: 100px;
-    font-family: 'Abril Fatface', cursive;
+   font-size: 13vw;
+    font-family: 'Bebas Neue', cursive;
     cursor: default;
     text-shadow: 1px 0px 7px rgb(0, 68, 255);
     color: #fffb00; 
+	display: inline-block;
 }
 .main{
-    font-size: 180px;
+    font-size: 14vw;
     user-select: none;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: -4px;
@@ -52,6 +54,7 @@ a:hover{
     transition: 0.5s;
     text-shadow: 1px 0px 7px rgb(0, 68, 255);
     transform: 0.5s;
+    display: inline-block;
     padding-bottom: 0px;
 }
 .main:hover .roblox-logo{
